@@ -1,0 +1,7 @@
+# Never commit the Slack webhook or any credentials
+.env
+*.tfvars
+secrets.json
+.DS_Store
+__pycache__/
+*.pyc

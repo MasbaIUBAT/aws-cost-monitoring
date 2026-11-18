@@ -1,0 +1,18 @@
+{
+  "detail": {
+    "eventName": "CreateNatGateway",
+    "awsRegion": "ap-southeast-1",
+    "eventTime": "2026-11-18T14:31:02Z",
+    "sourceIPAddress": "203.0.113.10",
+    "userIdentity": {
+      "type": "IAMUser",
+      "userName": "SAMPLE-USER",
+      "arn": "arn:aws:iam::111122223333:user/SAMPLE-USER"
+    },
+    "responseElements": {
+      "CreateNatGatewayResponse": {
+        "natGateway": { "natGatewayId": "nat-SAMPLE-NOT-REAL" }
+      }
+    }
+  }
+}

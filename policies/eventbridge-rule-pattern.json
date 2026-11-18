@@ -1,0 +1,16 @@
+{
+  "detail-type": ["AWS API Call via CloudTrail"],
+  "detail": {
+    "eventName": [
+      "RunInstances",
+      "CreateNatGateway",
+      "CreateVolume",
+      "AllocateAddress",
+      "CreateVpcEndpoint",
+      "CreateDBInstance",
+      "CreateDBCluster",
+      "CreateLoadBalancer",
+      "CreateCluster"
+    ]
+  }
+}
