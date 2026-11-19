@@ -1,0 +1,16 @@
+# Terraform working directory and provider plugins
+.terraform/
+.terraform.lock.hcl
+
+# State files: contain account IDs, ARNs and resource metadata.
+# Never commit these to a public repository.
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Variable files that may hold credentials or account-specific values
+*.tfvars
+*.tfvars.json
+
+# Build artifact produced by the archive_file data source
+*.zip
